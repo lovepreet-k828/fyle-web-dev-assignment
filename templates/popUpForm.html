@@ -1,0 +1,79 @@
+<div
+  class="modal fade"
+  id="contactModal"
+  tabindex="-1"
+  role="dialog"
+  aria-labelledby="contactModalLabel"
+  aria-hidden="true"
+>
+  <div class="modal-dialog" role="document" style="width: 450px">
+    <div class="modal-content p-4">
+      <div class="modal-header" style="border: none">
+        <h5 class="modal-title" id="contactModalLabel">Talk to us</h5>
+      </div>
+      <div class="modal-body">
+        <form action="https://getform.io/f/zbxdxnwb" method="POST">
+          <div class="form-group bottom-margin">
+            <input
+              type="email"
+              class="form-control"
+              id="workEmail"
+              name="workEmail"
+              placeholder="Work email*"
+              required
+            />
+            <label for="workEmail">Work email</label>
+          </div>
+          <div class="form-row d-flex justify-content-between">
+            <div class="form-group col-md-6 bottom-margin pr-3">
+              <input
+                type="text"
+                class="form-control"
+                id="firstName"
+                name="firstName"
+                placeholder="First name*"
+                required
+              />
+              <label for="firstName">First name</label>
+            </div>
+            <div class="form-group col-md-6 bottom-margin pl-3">
+              <input
+                type="text"
+                class="form-control"
+                id="lastName"
+                name="lastName"
+                placeholder="Last name*"
+                required
+              />
+              <label for="lastName">Last name</label>
+            </div>
+          </div>
+          <div class="form-group form-check">
+            <input
+              type="checkbox"
+              class="form-check-input"
+              id="termsCheck"
+              style="accent-color: #ff3366; border: 1px solid #ff3366"
+              name="termsCheck"
+              required
+            />
+            <label
+              class="form-check-label"
+              for="termsCheck"
+              style="color: #616678; line-height: 22px; font-size: 14px"
+              >I agree to Fyle's terms and conditions, and provide consent to
+              send me communication.</label
+            >
+          </div>
+          <button
+            type="submit"
+            class="btn btn-danger font-weight-bold btn-block"
+            style="background-color: #ff3366"
+          >
+            Contact Us
+          </button>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
